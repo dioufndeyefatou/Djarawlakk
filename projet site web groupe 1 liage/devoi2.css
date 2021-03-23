@@ -1,0 +1,359 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: lucida calligraphy;
+	text-decoration: none;
+	
+
+}
+.un{
+	width:100%;
+	position:fixed;
+	background-color:darkkhaki;
+	padding: 25px 0px;
+	height: 5%;
+}
+.un .deux{
+	width: 1300px;
+	display: flex;	
+	justify-content:space-between;	
+	margin: auto;
+	
+}
+.logo a{
+	color: black;
+	font-size: 30px;
+	font-weight: 400;
+	animation: flash 2.5s linear infinite;
+
+}
+@keyframes flash{
+	50%{
+		color: green;
+	}
+}
+.logo a span{
+	color: black;
+	font-family:lucida calligraphy;
+	animation: flash 2.5s linear infinite;
+
+}
+@keyframes flash{
+	50%{
+		color: green;
+	}
+}
+
+.menu{
+	padding-top: 10px;
+
+}
+.menu li{
+	display: inline-block;
+}
+.menu li a{
+	color: white;
+	font-size: 20px;
+	font-weight: 200;
+	margin-left: 25px;
+	transition: color 2s;
+	font-family:lucida calligraphy;
+
+}
+.menu li a:hover{
+	color: black;
+	webkit-transform:rotate(2deg);
+}
+.sous{
+	display: none;
+	position: absolute;
+	width: 190px;
+}
+.menu li:hover .sous{
+	display: block;
+	webkit-transform:rotate(2deg);
+
+}
+.sous li {
+	text-align: center;
+	width: 100%;
+	background-color: darkkhaki;
+	border:2px solid darkolivegreen;
+
+}
+
+/****************************************************/
+
+.six{
+	height: 650px;
+	background:url('tof1.jpeg');
+	display: flex;
+}
+.six .deux{
+	margin: auto 120px;
+	color: white;
+}
+.six .deux .text-1{
+	font-size: 40px;
+	font-weight: 600;
+}
+.six .deux .text-2{
+		color: darkolivegreen;
+		font-size: 65px;
+		font-weight: 600;
+		font-family: lucida calligraphy;
+}
+.six .deux .text-3{
+		font-size:50px;
+		font-weight:700;
+	}
+.six .deux.text-3 span{
+	color: crimson;
+	margin-bottom: 20px;
+}
+.six .deux a{
+	display: inline-block;
+	font-weight: 200;
+	background-color:darkolivegreen;
+	color: white ;
+	font-size: 30px;
+	border: 2px solid darkolivegreen;
+	padding: 10px 20px;
+	margin-top: 20px;
+	border-radius: 13px;
+
+
+
+}
+.six .deux a:hover{
+	background:none;
+}
+/**************************************************/
+.about{
+	padding: 50px 150px;
+}
+.about .title{
+	font-size: 45px;
+	font-weight: 500;
+	text-align: center;
+	text-decoration: underline crimson;
+	font-family:lucida calligraphy;
+
+
+}
+.about .sept{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 80px;
+
+}
+.about .div-left{
+	width: 45%;
+}
+.about .div-right{
+	width: 55%;
+}
+.about .div-left img{
+	height: 450px;
+	width: 300px;
+	border-radius: 7px;
+	object-fit: cover;
+}
+.about .div-right .text{
+	font-size: 35px;
+	font-weight: 600;
+
+}
+.about .div-right .text span{
+	color: crimson;
+}
+.about .div-right p{
+	text-align: justify;
+	font-size: 20px;
+}
+.about .div-right a{
+	display: inline-block;
+	font-weight: 200;
+	background-color:crimson;
+	color: white ;
+	font-size: 40px;
+	border: 2px solid crimson;
+	border-radius: 20px;
+	padding: 10px 20px;
+	margin-top: 20px;
+
+}
+.text{
+	font-family:lucida calligraphy;
+}
+.poo{
+	font-family:lucida calligraphy;
+}
+.about .div-right a:hover{
+	background:none;
+	color: crimson;
+}
+/************************/
+.mp1{
+	text-align: center;
+	font-size: 40px;
+	font-family: lucida calligraphy;
+	background-color: lightcoral;
+}
+.mp{
+	text-align: center;
+	font-size: 35px;
+	font-family: lucida calligraphy;
+
+	
+}
+ img{
+	width: 300px;
+	height: 200px;
+	border: 4px solid lightcoral;
+}
+
+.Team .pre .t3{
+	border-radius: 10px;
+	border: 10px solid gray;
+	background-color: gray;
+	width: 275px;
+}
+
+.get .getcontent{
+	width: 90%;
+	display: flex;
+	justify-content: space-between;
+	border: 2px solid white;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+.get .getcontent .right{
+	width:400px;
+	padding-bottom: 0px;
+	padding-left: 85px;
+ }  
+
+.s9{
+	/*padding: 400px 0px;*/
+}
+.lorem1{
+	margin:0px 100px;
+	width: 500px;
+}
+.div10{
+	display: inline-block;
+	width:500px;
+}
+.div11{
+	display: flex;
+	justify-content: space-between;
+	font-size: 25px;
+}
+.div12{
+	margin:0px 0px 15px 15px;+
+}
+.div11 .lorem1{
+	word-spacing: 5px;
+	margin-bottom: 15px;
+}
+.div11 .div13 p{
+	margin-bottom: 10px;
+}
+.div11 .div14{
+	display: inline-block;
+	margin-right: 250px;
+}
+.div14{
+	margin: 0px;
+}
+.div14 .div15 input{
+	height: 23px;
+	width:140px;
+	margin-bottom:10px;
+}
+.div14 .div16 input{
+	height: 23px;
+	width:140px;
+	margin-bottom: 10px;
+}
+.div14 .div16 textarea{
+	height: 200px;
+	width:200px;
+	margin-bottom: 10px;
+}
+.div14 a{
+	color: #000;
+	border:3px groove darkolivegreen;
+	border-radius: 20px;
+	background-color:darkolivegreen;
+	font-weight: 700;
+	padding: 20px;
+	margin:8px 0px;
+	display: inline-block;
+	font-family: lucida calligraphy;
+}
+.div14 a:hover{;
+	color:lightcoral;
+	background:none;
+}
+.div14{
+	margin-left: 100%;
+}
+.div13 .m1{
+	color: lightcoral;
+}
+.div13 .m2{
+	display: flex;
+	margin: 10px 15px 0px 15px;
+	padding-bottom: 0px;
+	padding-top: 0px;
+}
+.div17{
+	display: flex;
+	justify-content: space-between;
+	width:45%;
+}
+.div13{
+
+	
+	padding-bottom: 0px;
+	padding-left: 85px;
+
+}
+.div13 .fa{
+	color: lightcoral;
+}
+.b1{
+width: 22px;
+height: 22px;
+border: 3px solid white;
+}
+.footer{
+ background-color: darkkhaki;
+ flex-shrink: 2;
+ border-top: 1px dashed darkkhaki;
+ width: 260%;
+ height: 10%;
+}
+.footer1{
+	display: flex;
+	width: 1250px;
+	margin: 0 auto;
+	justify-content: center;
+	align-items: flex-start;
+	font-family: lucida calligraphy;
+}
+.ft{
+	font-family: lucida calligraphy;
+}
+
+.fp{
+	font-family: lucida calligraphy;
+	font-size: 30px;
+}
+.sec{
+	background-color: snow;
+}
+
+
